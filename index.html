@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayank's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f8ff;
+    }
+    header {
+      background: #1e90ff;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 1em;
+    }
+    nav ul li button {
+      background: #4682b4;
+      color: #fff;
+      border: none;
+      padding: 0.5em 1em;
+      cursor: pointer;
+    }
+    nav ul li button:hover {
+      background: #5f9ea0;
+    }
+    main {
+      padding: 2em;
+    }
+    section {
+      margin-bottom: 2em;
+      padding: 1em;
+      border-radius: 10px;
+      color: #fff;
+    }
+    #profile {
+      background: #ff7f50;
+    }
+    #profile img {
+      max-width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 1em;
+    }
+    #education {
+      background: #ff6347;
+    }
+    #languages {
+      background: #ffa07a;
+    }
+    #volunteering {
+      background: #20b2aa;
+    }
+    #skills {
+      background: #3cb371;
+    }
+    #contact {
+      background: #9370db;
+    }
+    footer {
+      background: #1e90ff;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+    footer ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    footer ul li {
+      margin: 0 0.5em;
+    }
+    footer ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mayank</h1>
+    <nav>
+      <ul>
+        <li><button id="about-btn">About</button></li>
+        <li><button id="skills-btn">Skills</button></li>
+        <li><button id="contact-btn">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="profile">
+      <img src="profpicture.jpg" alt="Profile Picture" class="profile-pic">
+      <h2>Mayank</h2>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>GITAM Vizag, 2nd year, CSE core</p>
+      <p>Schooling in Singapore and Vizag</p>
+    </section>
+    <section id="languages">
+      <h2>Languages</h2>
+      <p>Fluent in English, Hindi, and Odia</p>
+      <p>Basic Spanish language course completed</p>
+    </section>
+    <section id="volunteering">
+      <h2>Volunteering</h2>
+      <p>Active volunteer in Art of Living</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>Web Development, AI, Machine Learning, Data Science</p>
+      <p>AI chatbot making course completed</p>
+    </section>
+    <section id="contact" hidden>
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Made with ❤️ by Mayank</p>
+    <ul>
+      <li><a href="https://www.instagram.com/_mayday_mayank_?igsh=djF1d3J5dWd0b3ow&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/mayank-behera-5249771b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/LuminousMayank" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
